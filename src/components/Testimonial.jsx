@@ -7,7 +7,7 @@ const testimonials = [
     name: "Zen",
     role: "Author",
     image:
-      "https://user-images.githubusercontent.com/13468728/234031693-6bbaba7d-632c-4d7d-965f-75a76a549ce2.jpg",
+      "/polycarbonate.webp",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Jonathan",
     role: "Treymont Inc.",
     image:
-      "https://user-images.githubusercontent.com/13468728/234031617-2dfb19ea-01d0-4370-b63b-bb6bdfb4f78e.jpg",
+      "/tensile-roofing.avif",
   },
   {
     id: 3,
@@ -23,11 +23,13 @@ const testimonials = [
     name: "Charlie",
     role: "Hallmark Inc.",
     image:
-      "https://user-images.githubusercontent.com/13468728/234031646-10533999-39e5-4c7b-ab54-d0299b13ce74.jpg",
+      "/puff-panel.jpg",
   },
 ];
 
 const TestimonialCard = ({ testimonial }) => (
+
+
   <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
     <div className="p-6 flex-1">
       <p className="text-gray-700 text-base md:text-lg leading-relaxed">
@@ -50,6 +52,7 @@ const TestimonialCard = ({ testimonial }) => (
 
 const MainContent = () => {
   return (
+    
     <div className="bg-gray-100 p-20 max-sm:p-10">
       {/* Heading and description */}
       <div className="mb-8">

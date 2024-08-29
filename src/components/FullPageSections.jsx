@@ -17,8 +17,8 @@ const sliderSettings = {
 
 const images = [
   "/image-1.jpeg",
-  "https://img.freepik.com/free-photo/view-nature-landscape-with-lake_23-2150763840.jpg?t=st=1724403677~exp=1724407277~hmac=c0fbcacf2252fc7f1fc5427d0d53455abafd118b9d704529ddad5ebcb55acad3&w=1380",
-  "https://img.freepik.com/free-photo/view-spectacular-nature-landscape_23-2150763636.jpg?t=st=1724394519~exp=1724398119~hmac=6def54c5506f6e5955a112da48fd06bdab775ec9777a9503dc40b041a2d48c34&w=1380"
+  "/puff-panel.jpeg",
+  "/polycarbonate-roofing.avif"
 ];
 
 const FullPageSections = () => {

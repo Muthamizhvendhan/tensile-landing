@@ -4,9 +4,12 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
+import FloatingButtons from "./FloatingButton";
 
 const Footer = () => {
   return (
+    <>
+    <FloatingButtons />
     <section className="py-7 bg-[#0d2336]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row items-center justify-between ">
@@ -158,6 +161,8 @@ const Footer = () => {
         </div>
       </div>
     </section>
+    </>
+
   );
 };
 
