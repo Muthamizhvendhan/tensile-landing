@@ -3,7 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
+* {
   scroll-behavior: smooth;
 }
 /* navbar */
@@ -24,7 +24,6 @@
   font-style: normal;
 }
 
-
 /* button */
 .lnk {
   width: 10em;
@@ -36,22 +35,29 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
- }
- 
- .lnk::before {
-  content: '';
+}
+
+.lnk::before {
+  content: "";
   width: 0;
   height: 3em;
   border-radius: 30em;
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
-  transition: .5s ease;
+  background-image: linear-gradient(to right, #049933 0%, #918a03 100%);
+  transition: 0.5s ease;
   display: block;
   z-index: -1;
- }
- 
- .lnk:hover::before {
+}
+
+.lnk:hover::before {
   width: 10em;
- }
+}
+
+/* IMAGECARD SHADOW */
+
+.imgshade {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}

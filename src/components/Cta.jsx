@@ -139,20 +139,22 @@ const Cta = () => {
 
       {/* Content */}
       <div className="relative p-6 text-center text-white">
-        <h1 className="text-3xl font-bold mb-4">
+        <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+        {/* Background tint */}
+        <h1 className="text-3xl font-bold mb-4 relative">
           Unlock limitless opportunities with us
         </h1>
-        <div className="flex justify-center gap-5">
+        <div className="flex justify-center gap-5 relative">
           <Link
             to="https://api.whatsapp.com/send?phone=09176980902"
-            className="inline-block bg-primary text-primary-foreground shadow-xl px-6 py-3 rounded-lg hover:bg-primary/80 transition lnk"
+            className="inline-block bg-primary font-semibold text-primary-foreground shadow-xl px-6 py-3 rounded-lg hover:bg-primary/80 transition lnk"
             onClick={handleWhatsApp}
           >
             → Whats App
           </Link>
           <Link
             to="tel:09176980902"
-            className="inline-block bg-primary text-primary-foreground shadow-xl px-6 py-3 rounded-lg hover:bg-primary/80 transition lnk"
+            className="inline-block bg-primary font-semibold text-primary-foreground shadow-xl px-6 py-3 rounded-lg hover:bg-primary/80 transition lnk"
           >
             → Call Now
           </Link>

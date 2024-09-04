@@ -14,7 +14,7 @@ const Services = () => {
             <img
               src="/GI.jpg"
               alt="G.I Roofing"
-              className="mx-auto rounded"
+              className="mx-auto rounded aspect-video imgshade"
             />
             <p className="text-muted-foreground text-xl max-sm:text-[18px] mt-4 mukta">
               G.I ROOFING
@@ -24,17 +24,17 @@ const Services = () => {
             <img
               src="/tensile.jpg"
               alt="Tensile Roofing"
-              className="mx-auto rounded"
+              className="mx-auto rounded aspect-video imgshade"
             />
             <p className="text-muted-foreground text-xl max-sm:text-[18px] mt-4 mukta">
               TENSILE ROOFING
             </p>
           </div>
-          <div className="text-center">
+          <div className="text-center"> 
             <img
               src="/upvc.jpg"
               alt="UPVC Roofing"
-              className="mx-auto rounded"
+              className="mx-auto rounded aspect-video imgshade"
             />
             <p className="text-muted-foreground text-xl max-sm:text-[18px] mt-4 mukta">
               UPVC ROOFING
@@ -44,7 +44,7 @@ const Services = () => {
             <img
               src="/polycarbonate.avif"
               alt="Polycarbonate Roofing"
-              className="mx-auto rounded"
+              className="mx-auto rounded aspect-video imgshade"
             />
             <p className="text-muted-foreground text-xl max-sm:text-[18px] mt-4 mukta">
               POLYCARBONATE ROOFING
@@ -54,7 +54,7 @@ const Services = () => {
             <img
               src="/puff_panel.avif"
               alt="Puff Panel Roofing"
-              className="mx-auto rounded"
+              className="mx-auto rounded aspect-video imgshade"
             />
             <p className="text-muted-foreground text-xl max-sm:text-[18px] mt-4 mukta">
              PUFF PANEL ROOFING

@@ -21,7 +21,7 @@ const About = () => {
         <div className="w-full flex flex-1 justify-center mb-6 md:mb-0 ml-2 max-sm:ml-0">
           <img
             alt="illustration of a person signing up"
-            src="/about.jpg"
+            src="/about.avif"
             className="w-full"
           />
         </div>
