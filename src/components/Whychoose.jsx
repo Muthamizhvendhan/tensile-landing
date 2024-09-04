@@ -13,7 +13,7 @@ const Whychoose = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
             <img
-              className="mx-auto w-[100px] h-[100px]"
+              className="mx-auto w-[80px] h-[80px]"
               alt="membership-organisations"
               src="/experienced.png"
             />
@@ -27,7 +27,7 @@ const Whychoose = () => {
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
             <img
-              className="mx-auto w-[100px] h-[100px]"
+              className="mx-auto w-[80px] h-[80px]"
               alt="national-associations"
               src="/high-quality.png"
             />
@@ -41,7 +41,7 @@ const Whychoose = () => {
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
             <img
-              className="mx-auto w-[100px] h-[100px]"
+              className="mx-auto w-[80px] h-[80px]"
               alt="clubs-and-groups"
               src="/cost-effective.png"
             />
@@ -55,7 +55,7 @@ const Whychoose = () => {
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
             <img
-              className="mx-auto w-[100px] h-[100px]"
+              className="mx-auto w-[80px] h-[80px]"
               alt="clubs-and-groups"
               src="/checklist.png"
             />
