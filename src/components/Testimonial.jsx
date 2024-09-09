@@ -12,7 +12,7 @@ const testimonials = [
     id: 2,
     text: "Atlas Roofing’s tensile roofing exceeded my expectations. The structure is robust, visually appealing, and provides great coverage. The team's precision and efficiency were commendable.",
     name: "Rajesh",
-    role: "SEO",
+    role: "SEO Analyst",
     image: "/tensile-roofing.avif",
   },
   {
@@ -25,7 +25,7 @@ const testimonials = [
 ];
 
 const TestimonialCard = ({ testimonial }) => (
-  <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
+  <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden" id="testimonials">
     <div className="p-6 flex-1">
       <p className="text-gray-700 text-base md:text-lg text-justify leading-relaxed">
         {testimonial.text}

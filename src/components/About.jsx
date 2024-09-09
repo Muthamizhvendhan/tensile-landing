@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <div id="about-us">
       <div className="flex flex-col md:flex-row items-center justify-between p-10 md:p-20 bg-background">
         <div className="flex-1">
           <h2 className="text-7xl max-sm:text-[52px] font-bold text-foreground mb-4 text-[#0077b6] qwitcher">

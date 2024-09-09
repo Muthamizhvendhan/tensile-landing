@@ -27,32 +27,30 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="#"
+            href="#about-us"
+            smooth={true} duration={500}
             className="text-white text-xl hover:text-muted-foreground"
           >
-            Features
+            About Us
           </a>
           <a
-            href="#"
+            href="#services"
+            smooth={true} duration={500}
             className="text-white text-xl hover:text-muted-foreground"
           >
-            Community
+            Services
           </a>
           <a
-            href="#"
+            href="#testimonials"
+            smooth={true} duration={500}
             className="text-white text-xl hover:text-muted-foreground"
           >
-            Blog
+            Testimonials
           </a>
+
           <a
-            href="#"
-            className="text-white text-xl hover:text-muted-foreground"
-          >
-            Pricing
-          </a>
-          <a
-            href="#"
-            className="bg-[#5e9dc2] text-white px-4 py-2 rounded-md max-sm:pb-10 hover:bg-[#4d4d4d]"
+            href="tel:09176980902"
+            className="bg-[#5e9dc2] text-white px-4 py-2 rounded-md hover:bg-[#4d4d4d]"
           >
             Call Now →
           </a>
@@ -84,23 +82,22 @@ const Navbar = () => {
         id="mobile-menu"
         className={`${isMenuOpen ? "" : "hidden"} md:hidden`}
       >
-        <a href="#" className="block text-muted hover:text-muted-foreground">
+        <a href="#" className="block text-muted text-white font-semibold text-xl hover:text-muted-foreground">
           Home
         </a>
-        <a href="#" className="block text-muted hover:text-muted-foreground">
-          Features
+        <a href="#about-us"
+             className="block text-muted text-white font-semibold text-xl hover:text-muted-foreground">
+          About Us
         </a>
-        <a href="#" className="block text-muted hover:text-muted-foreground">
-          Community
+        <a href="#services" className="block text-muted text-white font-semibold text-xl hover:text-muted-foreground">
+        Services
         </a>
-        <a href="#" className="block text-muted hover:text-muted-foreground">
-          Blog
+        <a  href="#testimonials" className="block text-muted text-white font-semibold text-xl hover:text-muted-foreground">
+        Testimonials
         </a>
-        <a href="#" className="block text-muted hover:text-muted-foreground">
-          Pricing
-        </a>
+
         <a
-          href="#"
+          href="tel:09176980902"
           className="block mt-5 bg-[#437e71e8] text-white px-4 py-2 rounded-md hover:bg-[#4d4d4d]"
         >
           Call Now →
