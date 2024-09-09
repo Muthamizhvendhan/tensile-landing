@@ -52,7 +52,7 @@ const Navbar = () => {
           </a>
           <a
             href="#"
-            className="bg-[#5e9dc2] text-white px-4 py-2 rounded-md hover:bg-[#4d4d4d]"
+            className="bg-[#5e9dc2] text-white px-4 py-2 rounded-md max-sm:pb-10 hover:bg-[#4d4d4d]"
           >
             Call Now →
           </a>
